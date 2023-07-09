@@ -10,7 +10,7 @@ st.header("Streamlit demo")
 
 st.sidebar.header("This is a web app")
 
-X_test = st.sidebar.slider("Select X to get yhat", 0, 10, 5)
+X_test = st.sidebar.slider("Select X to get yhat", 0, 20, 5)
 
 st.write("X test is:", X_test)
 
